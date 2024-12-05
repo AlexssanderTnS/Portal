@@ -144,6 +144,16 @@ text-decoration: underline;
     flex-direction: row;
     border: 8px solid #2D5C88;
 }
+
+.mei img{
+    width: 55%;
+    height: 15%; 
+    margin-left: 22%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 8px solid #2D5C88;
+}
         /* ------Final do card e texto------  */
 
 section.FAQ{
