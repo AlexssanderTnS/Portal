@@ -16,8 +16,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     padding: 15px 5px;
     background-color: #F4F8FB;
+    position: fixed;
     
 }
 
@@ -162,13 +164,13 @@ section.FAQ{
     background-color: #e2dcdc;
     border: 50px solid tomato;
     width: 60%;
-    display: block;
+   
     padding: 1%;
     height: 4%;
 }
 summary::marker{
     cursor: pointer;
-    color: #FFFF;
+    color: #003cff;
 }
 
 .FAQ h3{
@@ -178,23 +180,22 @@ summary::marker{
 }
 
 details{
-    background-color: #2D5C88;
+    background-color: #0982f300;
     padding: 2%;
-    border-bottom: 2px solid #282828;
+    border-bottom: 2px solid #000000;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
+   
     
 }
 
 details p{
-    background-color: #3e8ca39a;
-    color: #F2C12E;
+    background-color: #869ca39a;
+    color: #000000;
     padding: 2% ;
    
 }
 
 a{
     text-decoration: underline;
-    color: #F2C12E;
+    color: #09ff00;
 }
