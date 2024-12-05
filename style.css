@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    /* ------Inicio do cabeçalho------  */
+}
+body{
+    background-color:darkgray;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px;
+    background-color: #F4F8FB;
+    
+}
+
+section.tittle{
+    color: #225473;
+    font-size:x-large;
+    margin-left: 25px;
+    text-shadow: 2px 2px 4px #2e6099a8;
+}
+
+ul.nav{
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+a.nav-link{
+    text-decoration: none;
+    color: #333333;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+    /* ------Final do cabeçalho------  */
+
+img{
+    width: 100%;
+    height: 400px;
+}
+          /* Franquias card e texto */
+section h3{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    padding: 15px;
+    text-decoration: underline;
+   
+}
+
+section h2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:25px;
+    padding: 3%;
+    text-decoration: underline;
+}
+
+p{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    border: 7px solid #2D5C88;
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+div.card{
+    display:flex;
+    width: 150px;
+    height: 150px;
+    padding: 1%;
+}
+
+.card img{
+    width: 120%;
+    height: 170px;
+    background-color:whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.cartao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2D5C88;
+    border-radius: 2px;
+    
+}
+
+h2{display: flex;
+justify-content: space-around;
+align-items: center;
+font-size:25px;
+padding: 3%;
+text-decoration: underline;
+}
+
+
+
+.ltda img{
+    width: 55%;
+    height: 46%; 
+    margin-left: 22%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 8px solid #2D5C88;
+    
+}
+
+.imgdescr{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    padding: 2%;
+    line-break:anywhere;
+    justify-content: space-around;
+
+}
+
+.pj img{
+    width: 55%;
+    height: 15%; 
+    margin-left: 22%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 8px solid #2D5C88;
+}
+        /* ------Final do card e texto------  */
+
+section.FAQ{
+    background-color: #e2dcdc;
+    width: 35%;
+    height: 292px;
+    max-width: 600px;
+}
+
+.FAQ h3{
+    display: flex;
+    align-items: center;
+
+}
+
+details{
+    background-color: #2D5C88;
+    padding: 2%;
+    border-bottom: 2px solid #282828;
+    color: #000000;
+    font-weight: 600;
+}
+
+details p{
+    background-color: #3e8ca39a;
+    color: #F2C12E;
+    padding: 2% ;
+}
