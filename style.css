@@ -48,6 +48,8 @@ img{
     height: 400px;
 }
           /* Franquias card e texto */
+
+
 section h3{
     display: flex;
     justify-content: space-around;
@@ -68,16 +70,6 @@ section h2{
     text-decoration: underline;
 }
 
-p{
-    display: flex;
-    justify-content: space-around;
-    padding: 2%;
-    border: 7px solid #2D5C88;
-    background-color: whitesmoke;
-    text-align: center;
-    font-weight: 600;
-
-}
 
 div.card{
     display:flex;
@@ -104,12 +96,13 @@ div.card{
     
 }
 
-h2{display: flex;
-justify-content: space-around;
-align-items: center;
-font-size:25px;
-padding: 3%;
-text-decoration: underline;
+h2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:25px;
+    padding: 3%;
+    text-decoration: underline;
 }
 
 
@@ -154,13 +147,22 @@ text-decoration: underline;
     flex-direction: row;
     border: 8px solid #2D5C88;
 }
-        /* ------Final do card e texto------  */
+.memp img{
+    width: 55%;
+    height: 15%; 
+    margin-left: 22%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 8px solid #2D5C88;
+}
+/* ------Final do card e texto------  */
 
 section.FAQ{
     background-color: #e2dcdc;
-    width: 35%;
-    height: 292px;
-    max-width: 600px;
+    width: 60%;
+
+    height: 40%;
 }
 
 .FAQ h3{
@@ -181,4 +183,9 @@ details p{
     background-color: #3e8ca39a;
     color: #F2C12E;
     padding: 2% ;
+}
+
+a{
+    text-decoration: underline;
+    color: #F2C12E;
 }
