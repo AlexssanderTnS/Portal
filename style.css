@@ -160,9 +160,15 @@ h2{
 
 section.FAQ{
     background-color: #e2dcdc;
+    border: 50px solid tomato;
     width: 60%;
-
-    height: 40%;
+    display: block;
+    padding: 1%;
+    height: 4%;
+}
+summary::marker{
+    cursor: pointer;
+    color: #FFFF;
 }
 
 .FAQ h3{
@@ -175,14 +181,17 @@ details{
     background-color: #2D5C88;
     padding: 2%;
     border-bottom: 2px solid #282828;
-    color: #000000;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    
 }
 
 details p{
     background-color: #3e8ca39a;
     color: #F2C12E;
     padding: 2% ;
+   
 }
 
 a{
